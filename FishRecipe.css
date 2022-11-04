@@ -1,0 +1,185 @@
+body{
+    background-image: url(/images/silverware.jpg);
+    max-width: 1024px;
+    margin: auto;
+}
+
+h1{
+    
+    padding-top: 2%;
+    margin: 20px auto;
+    width: 70%;
+    height: 2.5em;
+    text-align: center;
+
+    border-style:solid;
+    border-radius: 1em;
+    border-color: #73ad21;
+    border-width: 2px;
+
+    color: #a4a400;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+
+}
+
+h2{
+    
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin: 20px auto;
+    width: 40%;
+    height: 2em;
+    text-align: center;
+
+    border-style:solid;
+    border-radius: 2.5em;
+    border-width: 2px;
+    border-color: #73ad21;
+
+    color: #a4a400;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+
+}
+
+/* unordered lists image set */
+ul {
+    list-style-image: url('/images/fish_icon_24.png');
+  }
+/*  */
+
+#ingerdientsdiv{
+    column-count: 3;
+    column-rule: 0.25rem solid #a4a400;
+    
+}
+
+#imgfish{
+    width: 100%;
+    border-radius: 50%;
+}
+
+#methoddiv{
+    column-count: 3;
+    column-rule: 0.25rem solid #a4a400;
+    
+}
+
+#usercommentsdiv{
+    width: 40%;
+    margin: auto;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+     */
+}
+
+#plussign{
+    width: 48px;
+    height:48px;
+}
+
+#allcomments{
+    width: 40%;
+    text-align: left;
+    margin: auto;
+    
+    /* display: flex;
+    flex-direction: column;
+    align-items:center ; */
+    
+}
+
+.coloredpara{
+    background-color: #ffffa8;
+    text-align: left;
+    width:auto;
+}
+
+#p1{
+    text-align: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* horizontal rule red */
+/* #hr1{ */
+    /* margin-top: 0px; */
+    /* height: 10px;
+    background-color: red;
+    border-radius: 15px;
+} */
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lastlink{
+    text-align: center;
+    color: #a4a400;
+}
+
+/*  */
+/*  */
+/* div in index.html */
+#div1{
+    column-count: 3;
+    column-rule: 0.25rem solid #a4a400;
+
+}
+
+/* images in index.html */
+.iimg{
+    width:100%;
+    border-radius: 50%;
+}
+/* =================== */
+
+@media screen and (max-width:768px) {
+    #ingerdientsdiv{
+        column-count: 1;                
+    }
+    
+    #methoddiv{
+        column-count: 1;   
+    }
+
+        #div1{
+            column-count: 1;
+            }
+}
+
+@media screen and (min-width:768px) {
+    #ingerdientsdiv{
+        column-count: 2;                
+    }
+    
+    #methoddiv{
+        column-count: 2;   
+    }
+
+    
+    #div1{
+        column-count: 2;
+         }
+}
+
+@media screen and (min-width:992px) {
+    #ingerdientsdiv{
+        column-count: 3;                
+    }
+    
+    #methoddiv{
+        column-count: 3;   
+    }
+    
+    #div1{
+        column-count: 3;
+         }
+}
+

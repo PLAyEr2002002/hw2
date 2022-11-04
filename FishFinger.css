@@ -1,0 +1,19 @@
+h1{
+    padding-top: 2%;
+    margin-left: 30%;
+    width: 30%;
+    height: 2.5em;
+    text-align: center;
+
+    border-style:solid;
+    border-radius: 2em;
+
+    border-color: #73ad21;
+    color: #a4a400;
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#topheading{
+    border-radius: 1em;
+}
