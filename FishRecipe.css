@@ -1,5 +1,5 @@
 body{
-    background-image: url(/images/silverware.jpg);
+    background-image: url(images/silverware.jpg);
     max-width: 1024px;
     margin: auto;
 }
@@ -47,7 +47,7 @@ h2{
 
 /* unordered lists image set */
 ul {
-    list-style-image: url('/images/fish_icon_24.png');
+    list-style-image: url('images/fish_icon_24.png');
   }
 /*  */
 
